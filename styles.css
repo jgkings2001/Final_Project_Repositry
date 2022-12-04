@@ -1,0 +1,17 @@
+header {
+    background-color:aqua;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+ul {
+    list-style-type:decimal;
+    padding: 20px;
+    font-size: 30px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+}
