@@ -1,5 +1,6 @@
 body {
     background-color: grey;
+    flex-wrap: wrap;
 }
 
 header {
@@ -40,8 +41,11 @@ h2 {
 .section-one {
     background-color: lightslategrey;
     padding: 100px;
+    justify-content: space-between;
     align-content: space-between;
     text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
 }
 
 .section-two {
@@ -72,6 +76,10 @@ h2 {
 .section-five {
     background-color: #f43;
     padding: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    justify-content: flex-start;
 }
 
 
