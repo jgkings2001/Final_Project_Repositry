@@ -1,3 +1,7 @@
+body {
+    background-color: grey;
+}
+
 header {
     background-color:aqua;
 }
@@ -7,15 +11,14 @@ h1 {
     font-size: 50px;
 }
 
-ul {
-    list-style-type: none;
-    padding: 5px;
+main {
+    background-color:bisque;
 }
 
-.container-navigation {
-    list-style-type: none;
-    font-size: 60px;
-    text-align:center;
-    display:block;
-    justify-content:space-around;
+footer {
+    background-color: aqua;
 }
+
+
+
+
