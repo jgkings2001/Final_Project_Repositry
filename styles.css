@@ -12,6 +12,7 @@ header {
 
 button {
     padding: 10px;
+    background-color: lightslategray;
     border: 1px solid crimson;
     border-radius: 5px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -25,6 +26,7 @@ button:hover {
     color:aliceblue;
     font-weight: bold;
     box-shadow:0 5px whitesmoke;
+    transform: translateY(4px);
 }
 
 button:active {
@@ -39,7 +41,7 @@ h1 {
 }
 
 main {
-    background-color:bisque;
+    background-color:slategrey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 }
@@ -59,11 +61,11 @@ h2 {
 /* homepage styles */
 
 .title-section {
-    background-color:rebeccapurple;
+    background-color:darkslategrey;
 }
 
 .section-one {
-    background-color: lightslategrey;
+    background-color: darkgoldenrod;
     padding: 100px;
     justify-content: space-between;
     align-content: space-between;
@@ -82,6 +84,18 @@ h2 {
     font-size: medium;
 }
 
+.typo-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display:flex;
+    max-width:1450px;
+    flex-wrap:wrap;
+    margin: row;
+    justify-content: space-evenly;
+    margin: auto;
+    grid-row: 3;
+}
+
 .typo-group { 
     display:flex;
     justify-content: space-around; 
@@ -96,10 +110,22 @@ h2 {
 }
 
 .typo-text {
-    display:flex;
+    display:block;
     justify-content: space-around; 
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.carp-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display:flex;
+    max-width:1450px;
+    flex-wrap:wrap;
+    margin: row;
+    justify-content: space-evenly;
+    margin: auto;
+    grid-row: 3;
 }
 
 .carp-group {
@@ -117,9 +143,14 @@ h2 {
     padding: 10px; 
 }
 
+
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:whitesmoke;
+    display:flex;
+    justify-content: space-around; 
+    flex-direction: row;
+    flex-wrap: wrap;
     }
 
 .section-three {
@@ -137,7 +168,7 @@ h3 {
 }
 
 .section-five {
-    background-color: #f43;
+    background-color: rgb(187, 55, 43);
     border: 2px;
     border-style:solid;
     border-color: #333;
@@ -145,7 +176,12 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     font-weight: bold;
+    color:whitesmoke;
     justify-content: flex-start;
+}
+
+p {
+    color: whitesmoke;
 }
 
 a:link {
@@ -153,15 +189,6 @@ a:link {
     color: black;
 }
 
-.slideshow-container {
-    max-width: 1000px;
-    position:relative;
-    margin: auto;
-}
-
-.mySlides {
-    display:none;
-}
 
 
 
