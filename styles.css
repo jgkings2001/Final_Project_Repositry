@@ -10,6 +10,14 @@ header {
     color:#333;
 }
 
+button {
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
@@ -55,9 +63,9 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
 }
-    h3 {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color:whitesmoke;
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:whitesmoke;
     }
 
 .section-three {
@@ -75,6 +83,9 @@ h2 {
 
 .section-five {
     background-color: #f43;
+    border: 2px;
+    border-style:solid;
+    border-color: #333;
     padding: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
