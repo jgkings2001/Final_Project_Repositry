@@ -5,17 +5,32 @@ body {
 
 header {
     padding: 40px;
-    background-color:aqua;
+    background-color:#333;
     text-align: center;
-    color:#333;
+    color:whitesmoke;
 }
 
 button {
     padding: 10px;
-    border: 1px solid blueviolet;
+    border: 1px solid crimson;
     border-radius: 5px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
+    font-size: medium;
+    margin: 2px;
+    transition-duration:1s;
+}
+
+button:hover {
+    background-color:orangered;
+    color:aliceblue;
+    font-weight: bold;
+    box-shadow:0 5px #333;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px darkred;
+    transform: translateY(4px);
 }
 
 h1 {
