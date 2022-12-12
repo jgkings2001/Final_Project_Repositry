@@ -80,6 +80,13 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
 }
+
+.typo-item { 
+    display: flex; 
+    flex-wrap: wrap;
+    width: 300px;   
+    padding: 10px; 
+}
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:whitesmoke;
@@ -113,9 +120,18 @@ h3 {
 
 a:link {
     text-decoration: none;
+    color: black;
 }
 
+.slideshow-container {
+    max-width: 1000px;
+    position:relative;
+    margin: auto;
+}
 
+.mySlides {
+    display:none;
+}
 
 
 
