@@ -77,16 +77,46 @@ h2 {
     background-color: rgb(0, 115, 255);
     padding: 100px;
     align-content:flex-start;
+    flex-direction: row;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
 }
 
-.typo-item { 
-    display: flex; 
+.typo-group { 
+    display:flex;
+    justify-content: space-around; 
+    flex-direction: row;
     flex-wrap: wrap;
+    
+}
+
+.typo-item {
     width: 300px;   
     padding: 10px; 
 }
+
+.typo-text {
+    display:flex;
+    justify-content: space-around; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.carp-group {
+    display:flex;
+    justify-content: space-around; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.carp-item { 
+    display:flex;
+    justify-content: space-around; 
+    flex-direction: row;
+    width: 25%;  
+    padding: 10px; 
+}
+
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:whitesmoke;
