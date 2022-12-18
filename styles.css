@@ -124,23 +124,28 @@ h2 {
     flex-wrap:wrap;
     margin: row;
     justify-content: space-evenly;
-    margin: auto;
+    margin: 100px ;
     grid-row: 3;
 }
 
-.carp-group {
+.carp-group { 
     display:flex;
     justify-content: space-around; 
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 
-.carp-item { 
-    display:flex;
+.carp-item {
+    width: 300px;   
+    padding: 10px; 
+}
+
+.typo-text {
+    display:block;
     justify-content: space-around; 
     flex-direction: row;
-    width: 25%;  
-    padding: 10px; 
+    flex-wrap: wrap;
 }
 
 
@@ -148,8 +153,9 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:whitesmoke;
     display:flex;
-    justify-content: space-around; 
-    flex-direction: row;
+    align-content: flex-start;
+    justify-content:flex-start; 
+    flex-direction:row;
     flex-wrap: wrap;
     }
 
