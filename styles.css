@@ -195,6 +195,15 @@ a:link {
     color: black;
 }
 
+ul {
+    display: grid;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content:flex-start; 
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
 
 
 
